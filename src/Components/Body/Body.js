@@ -10,22 +10,24 @@ import Paper from "@mui/material/Paper";
 import Row from "../Row/Row";
 import "./Body.css";
 
-
 const Body = () => {
+  //state for storing employees data
   const [employees, SetEmployees] = useState([]);
 
+  // function to fetch data
   async function getEmployees() {
     //fetching data from API
     const data = await fetch(`${Employees}`);
-    const json = await data.json();
+    const json = await data.json(); //converting to json
     SetEmployees(json);
-    console.log("Json: ", json);
+    // console.log("Json: ", json);
   }
 
   useEffect(() => {
     getEmployees();
   }, []);
 
+  // function to createData in object from (it takes data and return in object form)
   function createData(
     name,
     age,
@@ -50,6 +52,7 @@ const Body = () => {
     };
   }
 
+  //creating multiple data in array of object
   const rows = employees.map((employee) => 
       // console.log("-->", employee.name);
       createData(
@@ -68,6 +71,7 @@ const Body = () => {
   // {console.log("major", rows)}
   return (
     <div className="body">
+      <p className="table-heading">Employee Table</p>
       <div className="table">
       <TableContainer component={Paper}>
         <Table aria-label="collapsible table">
@@ -89,6 +93,7 @@ const Body = () => {
               <>
                 <TableRow>
                   <TableCell align="right">
+                  {/*Rendering Shimmer UI Till data get rendered */}
                     <p className="shimmer">Loading table data from API</p>
                   </TableCell>
                 </TableRow>

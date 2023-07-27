@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Collapse from "@mui/material/Collapse";
 import IconButton from "@mui/material/IconButton";
@@ -13,7 +13,7 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 
 export default function Row(props) {
-    const { row } = props;
+    const { row } = props; //destructuring row from props
     const [open, setOpen] = React.useState(false);
     return (
       <React.Fragment>
@@ -22,7 +22,7 @@ export default function Row(props) {
             <IconButton
               aria-label="expand row"
               size="small"
-              onClick={() => setOpen(!open)}
+              onClick={() => setOpen(!open)} //dropdown data
             >
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
