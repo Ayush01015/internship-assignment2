@@ -7,8 +7,8 @@
       "designation": "Software Engineer",
       "state": "Maharashtra",
       "country": "India",
-      "DOJ": "2022-01-10",
-      "DOL": "2023-07-15",
+      "doj": "2022-01-10",
+      "dol": "2023-07-15",
       "salary": 75000
     },
     {
@@ -18,8 +18,8 @@
       "designation": "Product Manager",
       "state": "Karnataka",
       "country": "India",
-      "DOJ": "2020-05-20",
-      "DOL": null,
+      "doj": "2020-05-20",
+      "dol": null,
       "salary": 105000
     },
     {
@@ -29,8 +29,8 @@
       "designation": "Data Analyst",
       "state": "Delhi",
       "country": "India",
-      "DOJ": "2023-02-15",
-      "DOL": null,
+      "doj": "2023-02-15",
+      "dol": null,
       "salary": 60000
     },
     {
@@ -40,8 +40,8 @@
       "designation": "UX Designer",
       "state": "Gujarat",
       "country": "India",
-      "DOJ": "2021-11-05",
-      "DOL": "2023-06-30",
+      "doj": "2021-11-05",
+      "dol": "2023-06-30",
       "salary": 80000
     },
     {
@@ -51,8 +51,8 @@
       "designation": "Project Manager",
       "state": "Uttar Pradesh",
       "country": "India",
-      "DOJ": "2022-03-22",
-      "DOL": null,
+      "doj": "2022-03-22",
+      "dol": null,
       "salary": 90000
     },
     {
@@ -62,8 +62,8 @@
       "designation": "Marketing Executive",
       "state": "Madhya Pradesh",
       "country": "India",
-      "DOJ": "2021-09-18",
-      "DOL": "2023-07-20",
+      "doj": "2021-09-18",
+      "dol": "2023-07-20",
       "salary": 65000
     },
     {
@@ -73,8 +73,8 @@
       "designation": "HR Manager",
       "state": "Rajasthan",
       "country": "India",
-      "DOJ": "2020-02-12",
-      "DOL": null,
+      "doj": "2020-02-12",
+      "dol": null,
       "salary": 100000
     },
     {
@@ -84,8 +84,8 @@
       "designation": "Software Developer",
       "state": "Telangana",
       "country": "India",
-      "DOJ": "2022-06-08",
-      "DOL": null,
+      "doj": "2022-06-08",
+      "dol": null,
       "salary": 70000
     },
     {
@@ -95,8 +95,8 @@
       "designation": "Business Analyst",
       "state": "Bihar",
       "country": "India",
-      "DOJ": "2023-01-03",
-      "DOL": null,
+      "doj": "2023-01-03",
+      "dol": null,
       "salary": 55000
     },
     {
@@ -106,8 +106,8 @@
       "designation": "Finance Manager",
       "state": "Uttarakhand",
       "country": "India",
-      "DOJ": "2021-07-25",
-      "DOL": "2023-04-15",
+      "doj": "2021-07-25",
+      "dol": "2023-04-15",
       "salary": 95000
     },
     {
@@ -117,8 +117,8 @@
       "designation": "Quality Assurance",
       "state": "Punjab",
       "country": "India",
-      "DOJ": "2022-11-10",
-      "DOL": null,
+      "doj": "2022-11-10",
+      "dol": null,
       "salary": 70000
     },
     {
@@ -128,8 +128,8 @@
       "designation": "Operations Manager",
       "state": "Tamil Nadu",
       "country": "India",
-      "DOJ": "2020-09-05",
-      "DOL": "2023-07-31",
+      "doj": "2020-09-05",
+      "dol": "2023-07-31",
       "salary": 90000
     },
     {
@@ -139,8 +139,8 @@
       "designation": "Sales Executive",
       "state": "Kerala",
       "country": "India",
-      "DOJ": "2021-03-12",
-      "DOL": null,
+      "doj": "2021-03-12",
+      "dol": null,
       "salary": 60000
     },
     {
@@ -150,8 +150,8 @@
       "designation": "Graphic Designer",
       "state": "West Bengal",
       "country": "India",
-      "DOJ": "2023-02-28",
-      "DOL": null,
+      "doj": "2023-02-28",
+      "dol": null,
       "salary": 55000
     },
     {
@@ -161,8 +161,8 @@
       "designation": "Technical Lead",
       "state": "Andhra Pradesh",
       "country": "India",
-      "DOJ": "2021-10-15",
-      "DOL": "2023-05-31",
+      "doj": "2021-10-15",
+      "dol": "2023-05-31",
       "salary": 85000
     },
     {
@@ -172,8 +172,8 @@
       "designation": "Content Writer",
       "state": "Haryana",
       "country": "India",
-      "DOJ": "2022-04-20",
-      "DOL": null,
+      "doj": "2022-04-20",
+      "dol": null,
       "salary": 50000
     },
     {
@@ -183,8 +183,8 @@
       "designation": "Product Analyst",
       "state": "Chhattisgarh",
       "country": "India",
-      "DOJ": "2020-11-30",
-      "DOL": null,
+      "doj": "2020-11-30",
+      "dol": null,
       "salary": 70000
     },
     {
@@ -194,8 +194,8 @@
       "designation": "Business Development",
       "state": "Goa",
       "country": "India",
-      "DOJ": "2023-03-10",
-      "DOL": "2023-07-01",
+      "doj": "2023-03-10",
+      "dol": "2023-07-01",
       "salary": 80000
     },
     {
@@ -205,8 +205,8 @@
       "designation": "UX/UI Designer",
       "state": "Jharkhand",
       "country": "India",
-      "DOJ": "2022-08-10",
-      "DOL": null,
+      "doj": "2022-08-10",
+      "dol": null,
       "salary": 65000
     },
     {
@@ -216,8 +216,8 @@
       "designation": "Software Engineer",
       "state": "Odisha",
       "country": "India",
-      "DOJ": "2021-12-05",
-      "DOL": null,
+      "doj": "2021-12-05",
+      "dol": null,
       "salary": 75000
     },
     {
@@ -227,8 +227,8 @@
       "designation": "Project Manager",
       "state": "Assam",
       "country": "India",
-      "DOJ": "2023-01-20",
-      "DOL": "2023-06-15",
+      "doj": "2023-01-20",
+      "dol": "2023-06-15",
       "salary": 95000
     }
   ]
