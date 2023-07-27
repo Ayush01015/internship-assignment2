@@ -68,6 +68,7 @@ const Body = () => {
   // {console.log("major", rows)}
   return (
     <div className="body">
+      <div className="table">
       <TableContainer component={Paper}>
         <Table aria-label="collapsible table">
           <TableHead>
@@ -83,7 +84,16 @@ const Body = () => {
           </TableHead>
           <TableBody>
             
-            {
+            {rows.length===0
+              ?
+              <>
+                <TableRow>
+                  <TableCell align="right">
+                    <p className="shimmer">Loading table data from API</p>
+                  </TableCell>
+                </TableRow>
+              </>
+              :
               rows.map((row, i) => {
               //console.log(row); // Add this console.log statement
               return <Row key={i} row={row} />;
@@ -91,6 +101,7 @@ const Body = () => {
           </TableBody>
         </Table>
       </TableContainer>
+    </div>
     </div>
   );
 };

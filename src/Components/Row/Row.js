@@ -17,7 +17,7 @@ export default function Row(props) {
     const [open, setOpen] = React.useState(false);
     return (
       <React.Fragment>
-        <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
+        <TableRow >
           <TableCell>
             <IconButton
               aria-label="expand row"
