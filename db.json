@@ -1,173 +1,235 @@
 {
-    "employees": [
-      {
-        "name": "John Smith",
-        "age": 32,
-        "gender": "Male",
-        "designation": "Software Engineer",
-        "state": "Maharashtra",
-        "country": "India"
-      },
-      {
-        "name": "Emily Johnson",
-        "age": 28,
-        "gender": "Female",
-        "designation": "Product Manager",
-        "state": "Karnataka",
-        "country": "India"
-      },
-      {
-        "name": "Rahul Gupta",
-        "age": 25,
-        "gender": "Male",
-        "designation": "Data Analyst",
-        "state": "Delhi",
-        "country": "India"
-      },
-      {
-        "name": "Sneha Patel",
-        "age": 30,
-        "gender": "Female",
-        "designation": "UX Designer",
-        "state": "Gujarat",
-        "country": "India"
-      },
-      {
-        "name": "Amit Kumar",
-        "age": 35,
-        "gender": "Male",
-        "designation": "Project Manager",
-        "state": "Uttar Pradesh",
-        "country": "India"
-      },
-      {
-        "name": "Priya Singh",
-        "age": 27,
-        "gender": "Female",
-        "designation": "Marketing Executive",
-        "state": "Madhya Pradesh",
-        "country": "India"
-      },
-      {
-        "name": "Sanjay Verma",
-        "age": 40,
-        "gender": "Male",
-        "designation": "HR Manager",
-        "state": "Rajasthan",
-        "country": "India"
-      },
-      {
-        "name": "Anjali Reddy",
-        "age": 29,
-        "gender": "Female",
-        "designation": "Software Developer",
-        "state": "Telangana",
-        "country": "India"
-      },
-      {
-        "name": "Vivek Mishra",
-        "age": 33,
-        "gender": "Male",
-        "designation": "Business Analyst",
-        "state": "Bihar",
-        "country": "India"
-      },
-      {
-        "name": "Ayesha Khan",
-        "age": 26,
-        "gender": "Female",
-        "designation": "Finance Manager",
-        "state": "Uttarakhand",
-        "country": "India"
-      },
-      {
-        "name": "Rajesh Sharma",
-        "age": 31,
-        "gender": "Male",
-        "designation": "Quality Assurance",
-        "state": "Punjab",
-        "country": "India"
-      },
-      {
-        "name": "Meena Krishnan",
-        "age": 34,
-        "gender": "Female",
-        "designation": "Operations Manager",
-        "state": "Tamil Nadu",
-        "country": "India"
-      },
-      {
-        "name": "Rajiv Nair",
-        "age": 29,
-        "gender": "Male",
-        "designation": "Sales Executive",
-        "state": "Kerala",
-        "country": "India"
-      },
-      {
-        "name": "Shreya Das",
-        "age": 28,
-        "gender": "Female",
-        "designation": "Graphic Designer",
-        "state": "West Bengal",
-        "country": "India"
-      },
-      {
-        "name": "Arjun Srinivasan",
-        "age": 36,
-        "gender": "Male",
-        "designation": "Technical Lead",
-        "state": "Andhra Pradesh",
-        "country": "India"
-      },
-      {
-        "name": "Nisha Singhania",
-        "age": 27,
-        "gender": "Female",
-        "designation": "Content Writer",
-        "state": "Haryana",
-        "country": "India"
-      },
-      {
-        "name": "Rajendra Mehta",
-        "age": 39,
-        "gender": "Male",
-        "designation": "Product Analyst",
-        "state": "Chhattisgarh",
-        "country": "India"
-      },
-      {
-        "name": "Smita Desai",
-        "age": 30,
-        "gender": "Female",
-        "designation": "Business Development",
-        "state": "Goas",
-        "country": "India"
-      },
-      {
-        "name": "Alok Rajput",
-        "age": 32,
-        "gender": "Male",
-        "designation": "UX/UI Designer",
-        "state": "Jharkhand",
-        "country": "India"
-      },
-      {
-        "name": "Divya Mishra",
-        "age": 29,
-        "gender": "Female",
-        "designation": "Software Engineer",
-        "state": "Odisha",
-        "country": "India"
-      },
-      {
-        "name": "Vikram Kapoor",
-        "age": 33,
-        "gender": "Male",
-        "designation": "Project Manager",
-        "state": "Assam",
-        "country": "India"
-      }
-    ]
-  }
-  
+  "employees": [
+    {
+      "name": "John Smith",
+      "age": 32,
+      "gender": "Male",
+      "designation": "Software Engineer",
+      "state": "Maharashtra",
+      "country": "India",
+      "DOJ": "2022-01-10",
+      "DOL": "2023-07-15",
+      "salary": 75000
+    },
+    {
+      "name": "Emily Johnson",
+      "age": 28,
+      "gender": "Female",
+      "designation": "Product Manager",
+      "state": "Karnataka",
+      "country": "India",
+      "DOJ": "2020-05-20",
+      "DOL": null,
+      "salary": 105000
+    },
+    {
+      "name": "Rahul Gupta",
+      "age": 25,
+      "gender": "Male",
+      "designation": "Data Analyst",
+      "state": "Delhi",
+      "country": "India",
+      "DOJ": "2023-02-15",
+      "DOL": null,
+      "salary": 60000
+    },
+    {
+      "name": "Sneha Patel",
+      "age": 30,
+      "gender": "Female",
+      "designation": "UX Designer",
+      "state": "Gujarat",
+      "country": "India",
+      "DOJ": "2021-11-05",
+      "DOL": "2023-06-30",
+      "salary": 80000
+    },
+    {
+      "name": "Amit Kumar",
+      "age": 35,
+      "gender": "Male",
+      "designation": "Project Manager",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "DOJ": "2022-03-22",
+      "DOL": null,
+      "salary": 90000
+    },
+    {
+      "name": "Priya Singh",
+      "age": 27,
+      "gender": "Female",
+      "designation": "Marketing Executive",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "DOJ": "2021-09-18",
+      "DOL": "2023-07-20",
+      "salary": 65000
+    },
+    {
+      "name": "Sanjay Verma",
+      "age": 40,
+      "gender": "Male",
+      "designation": "HR Manager",
+      "state": "Rajasthan",
+      "country": "India",
+      "DOJ": "2020-02-12",
+      "DOL": null,
+      "salary": 100000
+    },
+    {
+      "name": "Anjali Reddy",
+      "age": 29,
+      "gender": "Female",
+      "designation": "Software Developer",
+      "state": "Telangana",
+      "country": "India",
+      "DOJ": "2022-06-08",
+      "DOL": null,
+      "salary": 70000
+    },
+    {
+      "name": "Vivek Mishra",
+      "age": 33,
+      "gender": "Male",
+      "designation": "Business Analyst",
+      "state": "Bihar",
+      "country": "India",
+      "DOJ": "2023-01-03",
+      "DOL": null,
+      "salary": 55000
+    },
+    {
+      "name": "Ayesha Khan",
+      "age": 26,
+      "gender": "Female",
+      "designation": "Finance Manager",
+      "state": "Uttarakhand",
+      "country": "India",
+      "DOJ": "2021-07-25",
+      "DOL": "2023-04-15",
+      "salary": 95000
+    },
+    {
+      "name": "Rajesh Sharma",
+      "age": 31,
+      "gender": "Male",
+      "designation": "Quality Assurance",
+      "state": "Punjab",
+      "country": "India",
+      "DOJ": "2022-11-10",
+      "DOL": null,
+      "salary": 70000
+    },
+    {
+      "name": "Meena Krishnan",
+      "age": 34,
+      "gender": "Female",
+      "designation": "Operations Manager",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "DOJ": "2020-09-05",
+      "DOL": "2023-07-31",
+      "salary": 90000
+    },
+    {
+      "name": "Rajiv Nair",
+      "age": 29,
+      "gender": "Male",
+      "designation": "Sales Executive",
+      "state": "Kerala",
+      "country": "India",
+      "DOJ": "2021-03-12",
+      "DOL": null,
+      "salary": 60000
+    },
+    {
+      "name": "Shreya Das",
+      "age": 28,
+      "gender": "Female",
+      "designation": "Graphic Designer",
+      "state": "West Bengal",
+      "country": "India",
+      "DOJ": "2023-02-28",
+      "DOL": null,
+      "salary": 55000
+    },
+    {
+      "name": "Arjun Srinivasan",
+      "age": 36,
+      "gender": "Male",
+      "designation": "Technical Lead",
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "DOJ": "2021-10-15",
+      "DOL": "2023-05-31",
+      "salary": 85000
+    },
+    {
+      "name": "Nisha Singhania",
+      "age": 27,
+      "gender": "Female",
+      "designation": "Content Writer",
+      "state": "Haryana",
+      "country": "India",
+      "DOJ": "2022-04-20",
+      "DOL": null,
+      "salary": 50000
+    },
+    {
+      "name": "Rajendra Mehta",
+      "age": 39,
+      "gender": "Male",
+      "designation": "Product Analyst",
+      "state": "Chhattisgarh",
+      "country": "India",
+      "DOJ": "2020-11-30",
+      "DOL": null,
+      "salary": 70000
+    },
+    {
+      "name": "Smita Desai",
+      "age": 30,
+      "gender": "Female",
+      "designation": "Business Development",
+      "state": "Goa",
+      "country": "India",
+      "DOJ": "2023-03-10",
+      "DOL": "2023-07-01",
+      "salary": 80000
+    },
+    {
+      "name": "Alok Rajput",
+      "age": 32,
+      "gender": "Male",
+      "designation": "UX/UI Designer",
+      "state": "Jharkhand",
+      "country": "India",
+      "DOJ": "2022-08-10",
+      "DOL": null,
+      "salary": 65000
+    },
+    {
+      "name": "Divya Mishra",
+      "age": 29,
+      "gender": "Female",
+      "designation": "Software Engineer",
+      "state": "Odisha",
+      "country": "India",
+      "DOJ": "2021-12-05",
+      "DOL": null,
+      "salary": 75000
+    },
+    {
+      "name": "Vikram Kapoor",
+      "age": 33,
+      "gender": "Male",
+      "designation": "Project Manager",
+      "state": "Assam",
+      "country": "India",
+      "DOJ": "2023-01-20",
+      "DOL": "2023-06-15",
+      "salary": 95000
+    }
+  ]
+}
