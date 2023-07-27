@@ -1,21 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Employees } from "../../Constants/Employees";
-import PropTypes from "prop-types";
-import Box from "@mui/material/Box";
-import Collapse from "@mui/material/Collapse";
-import IconButton from "@mui/material/IconButton";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Row from "../Row/Row";
 import "./Body.css";
+
+
 const Body = () => {
   const [employees, SetEmployees] = useState([]);
 
@@ -24,7 +19,7 @@ const Body = () => {
     const data = await fetch(`${Employees}`);
     const json = await data.json();
     SetEmployees(json);
-    // console.log("Json: ", json);
+    console.log("Json: ", json);
   }
 
   useEffect(() => {
@@ -39,7 +34,8 @@ const Body = () => {
     country,
     doj,
     dol,
-    salary
+    salary,
+    state
   ) {
     return {
       name,
@@ -50,11 +46,12 @@ const Body = () => {
       doj,
       dol,
       salary,
+      state,
     };
   }
 
-  const rows = [
-    employees.map((employee) => {
+  const rows = employees.map((employee) => 
+      // console.log("-->", employee.name);
       createData(
         employee.name,
         employee.age,
@@ -63,13 +60,14 @@ const Body = () => {
         employee.country,
         employee.doj,
         employee.dol,
-        employee.salary
-      );
-    }),
-  ];
+        employee.salary,
+        employee.state,
+      )
+    );
 
+  // {console.log("major", rows)}
   return (
-    <>
+    <div className="body">
       <TableContainer component={Paper}>
         <Table aria-label="collapsible table">
           <TableHead>
@@ -84,13 +82,16 @@ const Body = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.map((row) => (
-              <Row key={row.name} row={row} />
-            ))}
+            
+            {
+              rows.map((row, i) => {
+              //console.log(row); // Add this console.log statement
+              return <Row key={i} row={row} />;
+            })}
           </TableBody>
         </Table>
       </TableContainer>
-    </>
+    </div>
   );
 };
 
