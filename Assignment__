@@ -1,0 +1,51 @@
+Ans 1: 
+
+  //state for storing employees data
+  const [employees, SetEmployees] = useState([]);
+
+  // function to fetch data
+  async function getEmployees() {
+    //fetching data from API
+    const data = await fetch(`${Employees}`);
+    const json = await data.json(); //converting to json
+    SetEmployees(json);
+    // console.log("Json: ", json);
+  }
+
+  useEffect(() => {
+    getEmployees();
+  }, []);
+  
+  
+  classic example of fetching data from Employees API
+  
+  
+  Ans 2:
+  
+  https://internship-assignment2-git-master-ayush01015.vercel.app/
+  
+  
+  Ans 3:
+  
+Install Redux and React-Redux: Begin by installing the necessary packages, redux and react-redux, using npm or yarn.
+
+Create a Redux Store: Designate a store to hold the application's state. This store acts as a single source of truth for the entire application.
+
+//For Cart
+import {configureStore} from "@reduxjs/toolkit"
+import CartSlice from "./Slices/CartSlice";
+
+
+const store = configureStore({
+    reducer:{
+        cart:CartSlice
+    }
+});
+
+export default store;
+
+Wrap App with <Provider>: Utilize the <Provider> component from react-redux to provide the Redux store to all components in the React app. This component wraps the entire app and makes the store accessible down the component tree.
+
+Access Redux Store in Components: Within the React components, access the Redux store's data using either the useSelector hook (for functional components) or the connect function (for class components) provided by react-redux.
+
+

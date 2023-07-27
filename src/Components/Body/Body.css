@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 .body{
-  width: 100%;
+  /* width: 100%; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,3 +44,13 @@
   }
 } */
 
+@media(min-width:320px){
+  .table{
+    height:auto;
+  }
+}
+@media(min-width:769px){
+  .table{
+    height: 600px;
+  }
+}
